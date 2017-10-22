@@ -70,7 +70,7 @@ global.bossEnd = 0;
 global.lvl = 0; 
 global.afterGame = 0;
 
-//global.dis_u = shader_get_uniform(sh_aberration, 'u_Distance');
+global.dis_u = shader_get_uniform(sh_aberration, 'u_Distance');
 global.dis = 0.4;
 script_execute(scr_loadGame); 
 
@@ -98,8 +98,8 @@ script_execute(scr_loadGame);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//  shader_set(sh_aberration);
-  //shader_set_uniform_f(global.dis_u, global.dis);
+            <string> shader_set(sh_aberration);
+shader_set_uniform_f(global.dis_u, global.dis);
 </string>
           </argument>
         </arguments>

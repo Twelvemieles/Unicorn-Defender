@@ -77,6 +77,7 @@
             <kind>1</kind>
             <string>global.afterGame = 1 ;
 global.bossEnd = 0;
+sound_play(sound_store);
 </string>
           </argument>
         </arguments>

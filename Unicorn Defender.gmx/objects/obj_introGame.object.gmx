@@ -30,6 +30,8 @@
     {
     instance_create(random_range(0,640) , irandom_range(0,1600),obj_stars);
     }
+    
+
 </string>
           </argument>
         </arguments>

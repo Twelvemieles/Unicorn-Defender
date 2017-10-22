@@ -62,14 +62,9 @@ image_angle = global.dir;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-if (instance_exists(obj_unicorn))
-{
-audio_play_sound(choose(sound_rip,sound_rip2,sound_rip3),10,false);
+            <string> audio_play_sound(choose(sound_rip,sound_rip2,sound_rip3), 10, false);
 instance_destroy(obj_unicorn);
 instance_create(320,480,obj_rip);
-}
-
 
 
 /// Limpiamos la memoria
@@ -98,14 +93,9 @@ part_system_clear(obj_PC.sistema);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-if (instance_exists(obj_unicorn))
-{
-audio_play_sound(choose(sound_rip,sound_rip2,sound_rip3),10,false);
+            <string> audio_play_sound(choose(sound_rip,sound_rip2,sound_rip3), 10, false);
 instance_destroy(obj_unicorn);
 instance_create(320,480,obj_rip);
-}
-
 
 
 /// Limpiamos la memoria
@@ -135,12 +125,9 @@ part_system_clear(obj_PC.sistema);
           <argument>
             <kind>1</kind>
             <string>
-if (instance_exists(obj_unicorn))
-{
-audio_play_sound(choose(sound_rip,sound_rip2,sound_rip3),10,false);
+ audio_play_sound(choose(sound_rip,sound_rip2,sound_rip3), 10, false);
 instance_destroy(obj_unicorn);
 instance_create(320,480,obj_rip);
-}
 
 
 
@@ -170,14 +157,9 @@ part_system_clear(obj_PC.sistema);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-if (instance_exists(obj_unicorn))
-{
-audio_play_sound(choose(sound_rip,sound_rip2,sound_rip3),10,false);
+            <string> audio_play_sound(choose(sound_rip,sound_rip2,sound_rip3), 10, false);
 instance_destroy(obj_unicorn);
 instance_create(320,480,obj_rip);
-}
-
 
 
 /// Limpiamos la memoria
@@ -207,12 +189,9 @@ part_system_clear(obj_PC.sistema);
           <argument>
             <kind>1</kind>
             <string>
-if (instance_exists(obj_unicorn))
-{
-audio_play_sound(choose(sound_rip,sound_rip2,sound_rip3),10,false);
+ audio_play_sound(choose(sound_rip,sound_rip2,sound_rip3), 10, false);
 instance_destroy(obj_unicorn);
 instance_create(320,480,obj_rip);
-}
 
 
 
@@ -243,13 +222,9 @@ part_system_clear(obj_PC.sistema);
           <argument>
             <kind>1</kind>
             <string>
-if (instance_exists(obj_unicorn))
-{
-audio_play_sound(choose(sound_rip,sound_rip2,sound_rip3),10,false);
+ audio_play_sound(choose(sound_rip,sound_rip2,sound_rip3), 10, false);
 instance_destroy(obj_unicorn);
 instance_create(320,480,obj_rip);
-}
-
 
 
 /// Limpiamos la memoria
@@ -279,12 +254,11 @@ part_system_clear(obj_PC.sistema);
           <argument>
             <kind>1</kind>
             <string>
-if (instance_exists(obj_unicorn))
-{
-audio_play_sound(choose(sound_rip,sound_rip2,sound_rip3),10,false);
+
+ audio_play_sound(choose(sound_rip,sound_rip2,sound_rip3), 10, false);
 instance_destroy(obj_unicorn);
 instance_create(320,480,obj_rip);
-}
+
 
 
 

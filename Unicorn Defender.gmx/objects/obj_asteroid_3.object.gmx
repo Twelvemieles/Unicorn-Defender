@@ -110,21 +110,24 @@ else
  
 if vida &lt; 1 
 {
-//var sndMuerte = choose(sound_asterDie1 , sound_asterDie2 , sound_asterDie3);
-// audio_sound_pitch(sndMuerte, random_range(0.5 , 1.5));
-// sound_volume(sndMuerte, 0.5);
- //audio_play_sound(sndMuerte, 80, false);
-       // part_type_life(obj_PC.particula,10,30);
-       // part_type_color1(obj_PC.particula,c_white);
-     //   part_type_direction(obj_PC.particula,0,50,5,0);
+
+
+var sndMuerte = choose(sound_asterDie1 , sound_asterDie2 , sound_asterDie3);
+ audio_sound_pitch(sndMuerte, random_range(0.5 , 1.5));
+ 
+  sound_volume(sndMuerte, 0.5);
+audio_play_sound(sndMuerte, 80, false);
+        part_type_life(obj_PC.particula,10,30);
+        part_type_color1(obj_PC.particula,c_white);
+        part_type_direction(obj_PC.particula,0,50,5,0);
         
         // Definir la región del emisor
-       // part_emitter_region(obj_PC.sistema,obj_PC.emisor,x - 100,x + 100,y - 100,y + 100,ps_shape_ellipse,ps_distr_gaussian);
+        part_emitter_region(obj_PC.sistema,obj_PC.emisor,x - 100,x + 100,y - 100,y + 100,ps_shape_ellipse,ps_distr_gaussian);
         
         // Creamos la ráfaga
-       // part_emitter_burst(obj_PC.sistema,obj_PC.emisor,obj_PC.particula,random_range(8,10));
+        part_emitter_burst(obj_PC.sistema,obj_PC.emisor,obj_PC.particula,random_range(8,10));
 instance_destroy();
-//instance_create(x,y,obj_efect);
+instance_create(x,y,obj_efect);
 global.puntaje += 1;
 global.moneda += 1;
 

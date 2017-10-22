@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.soundLogo = audio_play_sound(sound_unicornLogo,10,false);
+            <string>global.soundLogo = audio_play_sound(sound_unicornLogo, 10, false); 
 </string>
           </argument>
         </arguments>

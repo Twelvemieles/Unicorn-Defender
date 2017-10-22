@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.soundBoss = audio_play_sound(sound_bossMusic,10,false);
-audio_sound_gain(global.soundGame,0,3000);
+            <string>sound_play(sound_bossMusic);
+audio_sound_gain(sound_bossMusic,0,3000);
 global.velAsteroides += 0.15 ;
 start = 0;
 

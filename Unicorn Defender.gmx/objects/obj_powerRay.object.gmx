@@ -87,7 +87,7 @@ var sndMuerte = choose(sound_rayhorn);
 
  //audio_sound_
   sound_volume(sndMuerte, 0.8);
- audio_play_sound(sndMuerte, 80, false);
+ sound_play(sndMuerte);
 vida = 0 ;
 instance_create(0,0,obj_begRay);
 global.rayGun = 1;

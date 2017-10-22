@@ -27,7 +27,9 @@
             <kind>1</kind>
             <string>instance_create(x,y,obj_destellos);
 instance_create(0,0,obj_numsRay);
-audio_play_sound(choose(sound_ray,sound_ray2),10,false);
+audio_play_sound(choose(sound_ray,sound_ray2), 9, false);
+
+
 
 </string>
           </argument>

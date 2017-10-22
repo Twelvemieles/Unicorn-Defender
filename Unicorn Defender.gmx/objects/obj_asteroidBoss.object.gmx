@@ -177,8 +177,9 @@ if vida &lt; 1
 {
 var sndMuerte = choose(sound_asterDie1 , sound_asterDie2 , sound_asterDie3);
  audio_sound_pitch(sndMuerte, random_range(0.5 , 1.5));
- sound_volume(sndMuerte, 0.5);
- audio_play_sound(sndMuerte, 80, false);
+ 
+  sound_volume(sndMuerte, 0.5);
+audio_play_sound(sndMuerte, 80, false);
         part_type_life(obj_PC.particula,10,30);
         part_type_color1(obj_PC.particula,c_white);
         part_type_direction(obj_PC.particula,0,50,5,0);

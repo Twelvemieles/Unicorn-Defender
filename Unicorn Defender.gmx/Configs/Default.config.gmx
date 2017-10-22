@@ -59,7 +59,7 @@
     <option_android_package_company>distortionmind</option_android_package_company>
     <option_android_package_domain>com</option_android_package_domain>
     <option_android_package_product>unidefender</option_android_package_product>
-    <option_android_permission_flags>0</option_android_permission_flags>
+    <option_android_permission_flags>8</option_android_permission_flags>
     <option_android_portrait_splash_png>Configs\Default\android\portrait_splash.png</option_android_portrait_splash_png>
     <option_android_push_enable>0</option_android_push_enable>
     <option_android_push_id></option_android_push_id>
@@ -68,7 +68,7 @@
     <option_android_sleep_margin>4</option_android_sleep_margin>
     <option_android_splash_png>Configs\Default\android\splash.png</option_android_splash_png>
     <option_android_splash_time>0</option_android_splash_time>
-    <option_android_support_lib_version>23.0.1</option_android_support_lib_version>
+    <option_android_support_lib_version>23.1.1</option_android_support_lib_version>
     <option_android_target_sdk_version>23</option_android_target_sdk_version>
     <option_android_texture_page>1024</option_android_texture_page>
     <option_android_use_test_ads>false</option_android_use_test_ads>
@@ -373,7 +373,7 @@
     <option_noborder>false</option_noborder>
     <option_nobuttons>false</option_nobuttons>
     <option_noscreensaver>true</option_noscreensaver>
-    <option_ouya_packaging>-1</option_ouya_packaging>
+    <option_ouya_packaging>0</option_ouya_packaging>
     <option_priority>0</option_priority>
     <option_ps3_interpolate>-1</option_ps3_interpolate>
     <option_ps3_nptitleid></option_ps3_nptitleid>
@@ -425,7 +425,7 @@
     <option_sizeable>False</option_sizeable>
     <option_stayontop>false</option_stayontop>
     <option_sync_vertex>0</option_sync_vertex>
-    <option_textureGroup0_border>2</option_textureGroup0_border>
+    <option_textureGroup0_border>7</option_textureGroup0_border>
     <option_textureGroup0_nocropping>0</option_textureGroup0_nocropping>
     <option_textureGroup0_parent>&lt;none&gt;</option_textureGroup0_parent>
     <option_textureGroup0_scaled>0</option_textureGroup0_scaled>
@@ -465,7 +465,7 @@
     <option_tvos_splash_time>0</option_tvos_splash_time>
     <option_tvos_texture_page>2048</option_tvos_texture_page>
     <option_use_fast_collision>False</option_use_fast_collision>
-    <option_use_new_audio>False</option_use_new_audio>
+    <option_use_new_audio>True</option_use_new_audio>
     <option_variableerrors>False</option_variableerrors>
     <option_version>100</option_version>
     <option_version_build>2</option_version_build>

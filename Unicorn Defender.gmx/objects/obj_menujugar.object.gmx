@@ -55,10 +55,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//if audio_sound_get_gain(global.soundLogo) &lt;= 1
-  // { 
-  //  sound_stop(global.soundLogo);
-  //  }
+            <string>if audio_sound_get_gain(global.soundLogo) &lt;= 1
+   { 
+audio_stop_sound(global.soundLogo);
+    }
 </string>
           </argument>
         </arguments>
@@ -81,8 +81,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//instance_create(0,0,obj_inicioGame);
-room_goto(room_introGame);
+            <string>instance_create(0,0,obj_inicioGame);
 audio_sound_gain(global.soundLogo,0,2000);
 global.inicioJuego = 0;
 </string>

@@ -55,8 +55,8 @@ image_index = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.pc = 1 ; 
-global.android = 0 ;
+            <string>global.pc = 0 ; 
+global.android = 1 ;
 </string>
           </argument>
         </arguments>

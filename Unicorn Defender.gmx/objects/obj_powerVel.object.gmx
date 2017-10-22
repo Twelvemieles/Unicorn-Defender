@@ -83,11 +83,11 @@ else
  
 if vida &lt;= 0 
 {
-var sndMuerte = choose(sound_superBullets);
+
  
  //audio_sound_
-  sound_volume(sndMuerte, 0.8);
- audio_play_sound(sndMuerte, 80, false);
+  sound_volume(sound_superBullets, 0.8);
+ sound_play(sound_superBullets);
  instance_create(0,0,obj_begBull);
 instance_destroy();
 global.powerVelBull = 1;

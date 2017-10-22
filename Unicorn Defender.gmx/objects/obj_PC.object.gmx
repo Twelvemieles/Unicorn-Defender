@@ -88,7 +88,7 @@ global.stopDemo = 0;
 }
 else
 {
-global.soundGame = audio_play_sound(sound_musicBoss,10,false);
+global.soundGame = audio_play_sound(sound_musicBoss, 10, false);
 }
 
 
