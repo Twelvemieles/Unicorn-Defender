@@ -31,6 +31,7 @@
     instance_create(random_range(0,640) , irandom_range(0,1600),obj_stars);
     }
     
+    global.soundGame = audio_play_sound(sound_musicGame,10,false);
 
 </string>
           </argument>

@@ -119,7 +119,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>800</string>
+            <string>660 - (global.VelocidadDisparoM * 300)</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -225,7 +225,7 @@ instance_create(choose(irandom_range(-300,0) , irandom_range(640,940)),irandom_r
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>600</string>
+            <string>600 - (global.VelocidadDisparoM * 150)</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -328,30 +328,6 @@ instance_create(irandom_range(0,640),irandom_range(0,960),obj_iniciolevelUp);
       </action>
       <action>
         <libid>1</libid>
-        <id>301</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_alarm</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>150 - (global.VelocidadDisparoM * 150)</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
         <id>603</id>
         <kind>7</kind>
         <userelative>0</userelative>
@@ -380,6 +356,30 @@ var i ;
     
     
 </string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>301</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_set_alarm</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>150 - (global.VelocidadDisparoM * 100)</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
           </argument>
         </arguments>
       </action>

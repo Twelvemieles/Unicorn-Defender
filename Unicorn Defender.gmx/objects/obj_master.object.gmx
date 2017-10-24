@@ -59,7 +59,7 @@ global.VelocidadDisparoM = 0 ;
 global.dano = 1 ; 
 global.vidAsteroide = 0 ;
 global.economia = 500 ; 
-global.velAsteroides = 0.4;
+global.velAsteroides = 0.6;
 global.pc = 1 ; 
 global.android = 0 ;
 global.topScore = 0;
@@ -71,7 +71,7 @@ global.lvl = 0;
 global.afterGame = 0;
 
 global.dis_u = shader_get_uniform(sh_aberration, 'u_Distance');
-global.dis = 0.4;
+global.dis = 0.3;
 script_execute(scr_loadGame); 
 
 

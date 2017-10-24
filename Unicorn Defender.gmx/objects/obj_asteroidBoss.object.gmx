@@ -142,8 +142,8 @@ if (start == 0)
 {
 if instance_exists(obj_finalBoss)
 {
-x = obj_finalBoss . x + lengthdir_x(150,angulo);
-y = obj_finalBoss . y + lengthdir_y(150,angulo);
+x = obj_finalBoss . x + lengthdir_x(-150,angulo);
+y = obj_finalBoss . y + lengthdir_y(-150,angulo);
 angulo +=  cantidadAngulo; 
 if (angulo &gt;= 360 )
 {
@@ -155,9 +155,13 @@ angulo = 0;
 
 if (start == 1)
 {
+
+if instance_exists(obj_uniLasFoll)
+ {
  if point_distance(x, y, obj_uniLasFoll.x, obj_uniLasFoll.y) &gt; true
     {
-    move_towards_point(obj_uniLasFoll.x, obj_uniLasFoll.y, global.velAsteroides );
+    move_towards_point(obj_uniLasFoll.x, obj_uniLasFoll.y, global.velAsteroides);
+    }
     }
  else speed = 0;
 }

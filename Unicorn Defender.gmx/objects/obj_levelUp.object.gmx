@@ -95,7 +95,7 @@ var sndMuerte = choose(sound_levelUp);
 
  //audio_sound_
   sound_volume(sndMuerte, 0.8);
- sound_play(sndMuerte);
+ audio_play_sound(sndMuerte, 80, false);
 vida = 0 ;
 instance_create(0,0,obj_begLvl);
 instance_destroy();

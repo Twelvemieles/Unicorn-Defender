@@ -25,11 +25,11 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>obj_uniLasFoll.x</string>
+            <string>320</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>obj_uniLasFoll.y</string>
+            <string>480</string>
           </argument>
         </arguments>
       </action>

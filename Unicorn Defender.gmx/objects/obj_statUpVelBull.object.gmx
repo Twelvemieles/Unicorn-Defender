@@ -141,7 +141,7 @@ if (global.moneda &gt;= global.economia)
 { 
 global.moneda -= global.economia;
 global.velocidadBullet += 4;
-global.velAsteroides += 0.06;
+
 }
 
 </string>

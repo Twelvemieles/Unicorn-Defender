@@ -44,6 +44,30 @@ vida = irandom_range(global.R1/3,global.R2/3);
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>101</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_move</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>111101111</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>2</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="3" enumb="0">
       <action>
@@ -82,24 +106,19 @@ if (global.pause)
 }
 
 //esto hace que se mueva hacia el personaje
-//gravity_direction = point_direction(x,y,obj_uniLasFoll.x,obj_uniLasFoll.y);
-if instance_exists(obj_unicorn)
- {
- if point_distance(x, y, obj_unicorn.x, obj_unicorn.y) &gt; true
-    {
-    move_towards_point(obj_unicorn.x, obj_unicorn.y, global.velAsteroides);
-    }
- else speed = 0;
- }
-else
- {
- if point_distance(x, y, obj_uniLasFoll.x, obj_uniLasFoll.y) &gt; true
-    {
-    move_towards_point(obj_uniLasFoll.x, obj_uniLasFoll.y, global.velAsteroides);
-    }
- else speed = 0;
- }
- 
+
+
+
+//if instance_exists(obj_uniLasFoll)
+// {
+// if point_distance(x, y, obj_uniLasFoll.x, obj_uniLasFoll.y) &gt; true
+ //   {
+//    move_towards_point(obj_uniLasFoll.x, obj_uniLasFoll.y, global.velAsteroides);
+ //   }
+//    }
+// else speed = 0;
+
+
  
  
  
@@ -184,6 +203,22 @@ vida -= global.dano ;
         </arguments>
       </action>
     </event>
+    <event eventtype="7" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>203</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_kill_object</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
     <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
@@ -208,7 +243,7 @@ if (green &lt;= 0 )
 {
 green = 0;
 }
-image_blend = make_colour_rgb(255,green , 0);
+
 </string>
           </argument>
         </arguments>
@@ -254,6 +289,27 @@ image_blend = make_colour_rgb(255,green , 0);
           <argument>
             <kind>13</kind>
             <string>16777215</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>image_blend = make_colour_rgb(255,green , 0);
+</string>
           </argument>
         </arguments>
       </action>

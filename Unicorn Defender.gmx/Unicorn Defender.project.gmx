@@ -143,6 +143,7 @@
       <sprite>sprites\spr_boss2</sprite>
       <sprite>sprites\spr_finalBoss</sprite>
     </sprites>
+    <sprite>sprites\spr_basurero</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">
@@ -231,6 +232,7 @@
       <object>objects\obj_menuTienda</object>
       <object>objects\obj_buySkin</object>
       <object>objects\obj_menuCreditos</object>
+      <object>objects\obj_basurero</object>
       <object>objects\obj_menuStory</object>
       <object>objects\obj_menuControl</object>
       <object>objects\obj_menuBack</object>

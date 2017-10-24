@@ -39,6 +39,26 @@
       </action>
       <action>
         <libid>1</libid>
+        <id>408</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>-1</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_if</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>instance_exists(obj_uniLasFoll)</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>102</id>
         <kind>0</kind>
         <userelative>-1</userelative>
@@ -219,9 +239,6 @@ var objetivo =collision_line(x,y,x+ hspeed * 2,y + vspeed * 2,obj_asteroid_4_1, 
 if instance_exists(objetivo){
    objetivo.vida -= global.dano; instance_create(objetivo.x - hspeed,objetivo.y - vspeed,obj_chispas); 
    }
-     move_bounce_solid(true);  
-     image_index = irandom(4);  
-     
 }
 if (place_meeting(x+ hspeed, y + vspeed, obj_asteroidBoss) or collision_line(x,y,x+ hspeed,y + vspeed,obj_asteroidBoss, true,false))
 {
