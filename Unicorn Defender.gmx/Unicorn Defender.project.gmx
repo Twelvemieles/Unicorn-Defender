@@ -220,12 +220,12 @@
       <object>objects\obj_numsRay</object>
     </objects>
     <objects name="asteroid">
-      <object>objects\obj_asteroid</object>
       <object>objects\obj_asteroid_2</object>
       <object>objects\obj_asteroid_3</object>
       <object>objects\obj_asteroidBoss</object>
       <object>objects\obj_asteroid_4_1</object>
       <object>objects\obj_asteroid_4</object>
+      <object>objects\obj_asteroid</object>
     </objects>
     <objects name="menus">
       <object>objects\obj_menujugar</object>
