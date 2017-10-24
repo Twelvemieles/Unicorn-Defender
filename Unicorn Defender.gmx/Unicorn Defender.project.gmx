@@ -3,11 +3,7 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <NewExtensions>
-    <extension index="0">extensions\TransitionFX</extension>
-    <extension index="1">extensions\Chromatic Aberration Shader</extension>
-    <extension index="2">extensions\Simple Saving and Loading</extension>
-  </NewExtensions>
+  <NewExtensions/>
   <sounds name="sound">
     <sound>sound\sound_shoot</sound>
     <sound>sound\sound_asterDie1</sound>
@@ -318,6 +314,10 @@
   <help>
     <rtf>help.rtf</rtf>
   </help>
+  <audiogroups name="audiogroups">
+    <audiogroup name="audiogroup_default"/>
+    <audiogroup name="pesados"/>
+  </audiogroups>
   <TutorialState>
     <IsTutorial>0</IsTutorial>
     <TutorialName></TutorialName>
