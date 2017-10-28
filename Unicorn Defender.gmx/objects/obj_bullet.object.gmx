@@ -229,6 +229,44 @@ other.vida -= global.dano;
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="obj_asteroid">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if ((global.pause) or (global.loose)) 
+{
+exit;
+}
+if (other.vida &lt;= global.dano)
+{
+other.vida = 0;
+}
+else
+{
+other.vida -= global.dano;
+}
+ instance_create(other.x - hspeed,other.y - vspeed,obj_chispas); 
+   
+    move_bounce_solid(true); 
+     image_index = irandom(4);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="obj_asteroid_4">
       <action>
         <libid>1</libid>
@@ -381,44 +419,6 @@ other.vida -= global.dano;
       </action>
     </event>
     <event eventtype="4" ename="obj_asteroid_2">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if ((global.pause) or (global.loose)) 
-{
-exit;
-}
-if (other.vida &lt;= global.dano)
-{
-other.vida = 0;
-}
-else
-{
-other.vida -= global.dano;
-}
- instance_create(other.x - hspeed,other.y - vspeed,obj_chispas); 
-   
-    move_bounce_solid(true); 
-     image_index = irandom(4);
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="obj_asteroid">
       <action>
         <libid>1</libid>
         <id>603</id>

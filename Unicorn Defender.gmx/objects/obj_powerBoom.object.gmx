@@ -74,6 +74,11 @@ if instance_exists(obj_uniLasFoll)
  
 if vida &lt;= 0 
 {
+var sndMuerte = sound_explode;
+
+ //audio_sound_
+  sound_volume(sndMuerte, 0.8);
+ audio_play_sound(sndMuerte, 5, false);
 vida = 0 ;
 instance_destroy();
 instance_create(x, y , obj_explosion);

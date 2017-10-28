@@ -26,6 +26,7 @@
     <sound>sound\sound_rip</sound>
     <sound>sound\sound_rip2</sound>
     <sound>sound\sound_rip3</sound>
+    <sound>sound\sound_explode</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="unicorn">
@@ -309,7 +310,6 @@
     <room>rooms\room_story</room>
     <room>rooms\room_gameOver</room>
     <room>rooms\room_controles</room>
-    <room>rooms\r_test</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

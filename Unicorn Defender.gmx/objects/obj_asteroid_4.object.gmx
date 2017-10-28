@@ -125,7 +125,7 @@ var i ;
     instance_create(x + random_range(-40,40),y + random_range(-40,40),obj_asteroid_4_1);
     }
 global.puntaje += 1;
-global.moneda += 1;
+global.moneda += 2;
 
 }
 </string>

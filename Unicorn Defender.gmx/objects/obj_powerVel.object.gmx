@@ -82,7 +82,7 @@ if vida &lt;= 0
   if (!instance_exists(obj_desactivador))
 {
 instance_create(0,0,obj_desactivador);
- audio_play_sound(sound_superBullets, 80, false);
+ audio_play_sound(sound_superBullets, 6, false);
  instance_create(0,0,obj_begBull);
  global.velocidadBullet += 8;
 

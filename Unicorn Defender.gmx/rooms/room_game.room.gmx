@@ -56,7 +56,7 @@
     <instance objName="obj_respawner" x="64" y="0" name="inst_67E84434" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_respEspecial" x="32" y="0" name="inst_41DDE33F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_menuPause" x="585" y="12" name="inst_9D8B7558" locked="0" code="" scaleX="0.810000002384186" scaleY="0.694444417953491" colour="4294967295" rotation="0"/>
-    <instance objName="obj_soundOnOff" x="515" y="11" name="inst_DC5255F9" locked="0" code="" scaleX="0.720000028610229" scaleY="0.720000028610229" colour="4294967295" rotation="0"/>
+    <instance objName="obj_soundOnOff" x="515" y="11" name="inst_DC5255F9" locked="0" code="" scaleX="0.72000002861023" scaleY="0.72000002861023" colour="4294967295" rotation="0"/>
     <instance objName="obj_dPad" x="320" y="864" name="inst_B0267BF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_flechaBoss" x="56" y="90" name="inst_7290A13F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_puntoFinal" x="586" y="90" name="inst_637E2DDD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

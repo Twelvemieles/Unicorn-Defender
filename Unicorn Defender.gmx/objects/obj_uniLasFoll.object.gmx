@@ -81,6 +81,42 @@ part_system_clear(obj_PC.sistema);
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="obj_asteroid">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+
+ audio_play_sound(choose(sound_rip,sound_rip2,sound_rip3), 10, false);
+instance_destroy(obj_unicorn);
+instance_destroy();
+instance_create(320,480,obj_rip);
+
+
+
+
+/// Limpiamos la memoria
+part_emitter_clear(obj_PC.sistema,obj_PC.emisor);
+part_type_clear(obj_PC.particula);
+part_system_clear(obj_PC.sistema);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="obj_asteroid_4">
       <action>
         <libid>1</libid>
@@ -226,42 +262,6 @@ part_system_clear(obj_PC.sistema);
       </action>
     </event>
     <event eventtype="4" ename="obj_asteroid_2">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>
-
- audio_play_sound(choose(sound_rip,sound_rip2,sound_rip3), 10, false);
-instance_destroy(obj_unicorn);
-instance_destroy();
-instance_create(320,480,obj_rip);
-
-
-
-
-/// Limpiamos la memoria
-part_emitter_clear(obj_PC.sistema,obj_PC.emisor);
-part_type_clear(obj_PC.particula);
-part_system_clear(obj_PC.sistema);
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="obj_asteroid">
       <action>
         <libid>1</libid>
         <id>603</id>

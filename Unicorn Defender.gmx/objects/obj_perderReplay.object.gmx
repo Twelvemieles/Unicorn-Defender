@@ -76,6 +76,7 @@
           <argument>
             <kind>1</kind>
             <string>room_goto(room_introGame);
+instance_destroy(obj_stars);
 script_execute(scr_saveGame);
 global.bossEnd = 0;
 

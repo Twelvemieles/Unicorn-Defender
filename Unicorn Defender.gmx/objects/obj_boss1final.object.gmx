@@ -144,7 +144,7 @@ instance_destroy();
 obj_flechaBoss.endFase = 1 ;
 instance_create(x,y,obj_efect);
 global.puntaje += 1;
-global.moneda += 1;
+global.moneda += 2;
 
 }
 </string>

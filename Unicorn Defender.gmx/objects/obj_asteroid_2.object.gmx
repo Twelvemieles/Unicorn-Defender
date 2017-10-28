@@ -121,7 +121,7 @@ audio_play_sound(sndMuerte, 80, false);
 instance_destroy();
 instance_create(x,y,obj_efect);
 global.puntaje += 1;
-global.moneda += 1;
+global.moneda += 2;
 
 }
 </string>

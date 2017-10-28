@@ -56,8 +56,8 @@
     <instance objName="obj_menuCreditos" x="416" y="32" name="inst_DC062988" locked="0" code="" scaleX="0.634271085262299" scaleY="0.535000026226044" colour="4294967295" rotation="0"/>
     <instance objName="obj_menuStory" x="0" y="32" name="inst_8C4999BA" locked="0" code="" scaleX="0.813299238681793" scaleY="0.606965184211731" colour="4294967295" rotation="0"/>
     <instance objName="obj_menuControl" x="87" y="813" name="inst_B0533FCC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_efectosInicio" x="0" y="0" name="inst_AE480FDC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_basurero" x="39" y="928" name="inst_07BD2A78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_efectosInicio" x="0" y="0" name="inst_43E28F83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

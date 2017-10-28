@@ -104,6 +104,7 @@
           <argument>
             <kind>1</kind>
             <string>instance_create(0,0,obj_inicioGame);
+instance_destroy(obj_stars);
 audio_sound_gain(global.soundLogo,0,2000);
 if instance_exists(obj_barraDano)
 {
