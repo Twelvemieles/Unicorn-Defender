@@ -67,8 +67,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//global.soundLogo = audio_play_sound(sound_unicornLogo, 5, false); 
-//audio_sound_gain(global.soundLogo,1,3000);
+            <string>global.soundLogo = audio_play_sound(sound_unicornLogo, 5, false); 
+audio_sound_gain(global.soundLogo,1,3000);
 </string>
           </argument>
         </arguments>

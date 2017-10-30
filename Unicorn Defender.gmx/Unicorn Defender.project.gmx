@@ -69,6 +69,7 @@
         <sprite>sprites\spr_menuStory</sprite>
         <sprite>sprites\spr_menuBack</sprite>
         <sprite>sprites\spr_menuControl</sprite>
+        <sprite>sprites\spr_basurero</sprite>
       </sprites>
       <sprites name="menuTienda">
         <sprite>sprites\spr_buySkin</sprite>
@@ -140,7 +141,6 @@
       <sprite>sprites\spr_boss2</sprite>
       <sprite>sprites\spr_finalBoss</sprite>
     </sprites>
-    <sprite>sprites\spr_basurero</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">

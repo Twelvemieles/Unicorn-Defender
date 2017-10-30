@@ -74,7 +74,7 @@ script_execute(scr_loadGame);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>cursor_sprite = spr_puntero;
+            <string>//cursor_sprite = spr_puntero;
 </string>
           </argument>
         </arguments>
